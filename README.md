@@ -42,3 +42,7 @@ And press the RESET button on the Feather S3. This should disconnect the monitor
 You can also skip this step and just press RESET; you won't see the message but the blue LED should still flash.
 
 Good luck!
+
+## License
+
+This repo is licensed for use under the [MIT License](https://romkey.mit-license.org).
