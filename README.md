@@ -15,7 +15,7 @@ platformio run
 
 PlatformIO will download any tools or packages it needs to build the program. Then it will compile and link the program. You'll many files that aren't main.cpp being compiled; these are the Arduino framework and the underlying software it's built on. The next time you build the project, files will only be recompiled if they've changed, if a file they depend on has changed, or if `platformio.ini` has changed.
 
-To flash the program to the Feather S3, first put it in download mode. Press and hold the BOOT button, then press and release the RESET button, then release the boot button. You should now see a device whose name looks like `/dev/tty.usbmodem-010`. The exact suffix will vary. You can check for this from the shell:
+To flash the program to the Feather S3, first put it in download mode. When you plug it into your Mac, you may see a dialog asking permission to connect to it. Accept that, then press and hold the board's BOOT button, then press and release the RESET button, then release the BOOT button. You should now see a device whose name looks like `/dev/tty.usbmodem-010`. The exact suffix will vary. You can check for this from the shell:
 ```
 ls /dev/tty.usb*
 ```
